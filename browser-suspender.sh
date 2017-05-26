@@ -92,7 +92,7 @@ while true; do
 
   case "${wclass[$window]}" in
     # 'Navigator' is not enough - it will not match e.g. save file dialog
-    *Navigator*|*Firefox*|*Iceweasel*|*PaleMoon*)
+    *Navigator*|*Firefox*|*Iceweasel*|*PaleMoon*|*chromium*)
       # Browser! We know it is running. Make sure we
       # have its pid and update the last seen date.
       # If we stopped it, resume again.
